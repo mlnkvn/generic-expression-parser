@@ -1,0 +1,1 @@
+package expression.exceptions;public class BracketNumberException extends IllegalArgumentException {    public BracketNumberException(String message) {        super(message);    }}

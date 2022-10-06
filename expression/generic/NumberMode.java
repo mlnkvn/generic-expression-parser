@@ -1,0 +1,1 @@
+package expression.generic;public interface NumberMode<T> {    T parse(String string);    T add(T a, T b);    T subtract(T a, T b);    T multiply(T a, T b);    T divide(T a, T b);    T min(T a, T b);    T max(T a, T b);    T negate(T a);    int intValue(T a);    boolean compare(T a, T b);    T count(T a);}

@@ -1,0 +1,1 @@
+package expression.exceptions;public class IllegalModeException extends IllegalArgumentException {    public IllegalModeException(String message) {        super(message);    }}

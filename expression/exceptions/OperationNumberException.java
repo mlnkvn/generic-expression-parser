@@ -1,0 +1,1 @@
+package expression.exceptions;public class OperationNumberException extends IllegalArgumentException {    public OperationNumberException(String message) {        super(message);    }}

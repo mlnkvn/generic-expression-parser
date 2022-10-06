@@ -1,0 +1,1 @@
+package expression.generic;public interface GenericGeneralExpression<T> extends GenericExpression<T>, GenericTripleExpression<T> {}
